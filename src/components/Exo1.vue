@@ -17,7 +17,7 @@
         <h3> {{ "VUE-JS | V-HTML DIRECTIVE".toUpperCase() }} </h3>
         <div v-html="html_element"></div>
         <h3> {{ "VUE-JS | V-BIND DIRECTIVE".toUpperCase() }} </h3>
-        <img :src="tmc"/><!-- we can also use v-bind:src -->
+        <img :src="tmc" width="90" height="90"/><!-- we can also use v-bind:src -->
         <code>
             Dev : {{  author.toUpperCase() }}
         </code>
@@ -26,7 +26,9 @@
 
 <script setup>
     import logo from "./logo.vue"
-    const tmc = 'assets/tmc.png'
+    import tmc from '../assets/tmc.png'
+    //const path = document.location.origin
+    //console.log(path)
     const author = "noumel"
     const html_element = "<p>the value passed v-html directive is render as a valid html el.But it is not recommended to use v-html on client side</p>"
     const msg = "Soft vue learning"
