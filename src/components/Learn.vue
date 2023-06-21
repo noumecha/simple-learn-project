@@ -3,11 +3,15 @@
     <div class="app">
         <logo class="logo"/>
         <Exo3 />
+        <Exo4 />
+        <Exo5 />
     </div>
 </template>
 
 <script setup>
 import Exo3 from './learncomponents/Exo3.vue';
+import Exo4 from './learncomponents/Exo4.vue';
+import Exo5 from './learncomponents/Exo5.vue';
 import logo from "./logo.vue"
 /*export default {
 }*/
@@ -17,7 +21,7 @@ import logo from "./logo.vue"
     .logo {
         margin-bottom: 20px;
     }
-    h2,h3 {
+    h2 {
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         color: #04BF37;
         margin-bottom: 20px;
@@ -29,8 +33,9 @@ import logo from "./logo.vue"
         justify-content: center;
         border: 1px solid white;
         border-radius: 30px;
-        padding: 20px;
-        widows: 100%;
+        padding: 100px;
+        max-width: 1024px;
+        /*width: 100%;*/
         background-color: white;
         color: black;
     }
