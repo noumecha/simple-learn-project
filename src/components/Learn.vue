@@ -5,6 +5,9 @@
         <Exo3 />
         <Exo4 />
         <Exo5 />
+        <Exo6 />
+        <Exo7 />
+        <Exo8 />
     </div>
 </template>
 
@@ -12,6 +15,9 @@
 import Exo3 from './learncomponents/Exo3.vue';
 import Exo4 from './learncomponents/Exo4.vue';
 import Exo5 from './learncomponents/Exo5.vue';
+import Exo6 from './learncomponents/Exo6.vue';
+import Exo7 from './learncomponents/Exo7.vue';
+import Exo8 from './learncomponents/Exo8.vue';
 import logo from "./logo.vue"
 /*export default {
 }*/
