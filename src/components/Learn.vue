@@ -8,8 +8,9 @@
         <Exo6 />
         <Exo7 />
         <Exo8 />
-        <Exo9 /-->
-        <Exo10 />
+        <Exo9 />
+        <Exo10 /-->
+        <Exo11 />
     </div>
 </template>
 
@@ -21,35 +22,14 @@
 //import Exo7 from './learncomponents/Exo7.vue';
 //import Exo8 from './learncomponents/Exo8.vue';
 //import Exo9 from './learncomponents/Exo9.vue';
-import Exo10 from './learncomponents/Exo10.vue';
+//import Exo10 from './learncomponents/Exo10.vue';
+import Exo11 from './learncomponents/Exo11.vue';
 import logo from "./logo.vue"
 /*export default {
 }*/
 </script>
 
-<style>
-    .logo {
-        margin-bottom: 20px;
-    }
-    h2 {
-        font-family: 'Avenir', Helvetica, Arial, sans-serif;
-        color: #04BF37;
-        margin-bottom: 20px;
-    }
-    .app {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid white;
-        border-radius: 30px;
-        padding: 100px;
-        max-width: 1024px;
-        /*width: 100%;*/
-        background-color: white;
-        color: black;
-    }
-    .app div, p {
-        margin-bottom: 20px;
-    }
+<style lang="scss">
+    @import "../../src/styles/exo.scss";
+    @import "../../src/styles/index.scss";
 </style>

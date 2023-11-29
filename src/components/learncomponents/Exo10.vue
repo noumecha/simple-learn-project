@@ -33,7 +33,7 @@
                 this.list = this.list.filter(item => item !== i)
             }
         },
-        beforeCreate() {
+        /*beforeCreate() {
             alert("beforeCreate: data is static, thats it")
         },
         created() {
@@ -56,60 +56,8 @@
         },
         unmounted() {
             alert("unmounted: this component has been destroyed")
-        }
+        }*/
     }
 </script>
 <style>
-    .exo-container {
-        display: flex;
-        width: 100%;
-        padding: 20px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .links-container {
-        display: flex;
-        width: 100%;
-        padding: 10px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .links-container li {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        list-style-type: none;
-        padding: 10px;
-        margin: 0;
-    }
-    .links-container li div {
-        width: auto;
-        height: auto;
-        padding: 10px 20px;
-        margin: 0;
-    }
-    .interests-link > ol > li {
-        font-size: 16px;
-    }
-    .tmc-link {
-        width: auto;
-        height: auto;
-        padding: 10px 20px;
-        margin: 0;
-        background-color: red;
-        color: white;
-        text-decoration: none;
-        border: 1px solid red;
-        cursor: pointer;
-    }
-    .tmc-link:hover {
-        color: red;
-        background: white;
-    }
-    a {
-        font-size: 16px;
-    }
 </style>
